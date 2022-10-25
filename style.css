@@ -91,7 +91,7 @@ body {
     display: inline-block;
     color: rgb(189, 217, 237);
 }
-
+/* Overlay text */
 .project-text {
     text-align: center;
     font-size: 200%;
@@ -99,7 +99,7 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
-
+/* Overlay description */
 .project-description {
     text-align: center;
     font-size: 125%;
@@ -272,8 +272,37 @@ body {
     font-size: 200%;
     text-decoration: underline;
 }
+/* End 'PROJECT 4' */
+/* END "PROJECTS' SECTION */
 
+/* BEGIN "ABOUT" SECTION */
+.about-container {
+   position: relative; 
+   background: rgb(101, 96, 96);
+   height: 500px;
+   width: 100%;
+   border-top: 40px solid rgb(65, 162, 253);
+}
 
+.about-h1 {
+    position: relative;
+        font-size: 275%;
+        height: 500px;
+        background-image: linear-gradient(to bottom,
+                rgb(65, 162, 253) 0%,
+                rgb(232, 47, 232) 100%);
+        display: inline-block;
+        color: rgb(189, 217, 237);
+}
+
+.about-img {
+    position: absolute;
+    display: block;
+    height: 294px;
+    width: 234px;
+    top: 55px;
+    border: 5px solid black;
+}
 
 
 
