@@ -124,7 +124,7 @@ body {
 .overlay1 {
     position: absolute;
     top: 30px;
-    right: 180px;
+    right: 108px;
     width: 450px;
     height: 270px;
     background: rgba(243, 100, 238, 0.6);
@@ -138,8 +138,9 @@ body {
 
 .project1-img-text {
     position: relative;
-    top: 40px;
-    right: -240px;
+    display: inline-block;
+    top: 70px;
+    right: 210px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
@@ -181,8 +182,9 @@ body {
 
 .project2-img-text {
     position: relative;
-    top: 40px;
-    left: 335px;
+    display: inline-block;
+    top: 70px;
+    left: -130px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;   
@@ -222,8 +224,9 @@ body {
 
 .project3-img-text {
     position: relative;
-    top: -90px;
-    left: 230px;
+    display: inline-block;
+    top: -50px;
+    left: -215px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
@@ -248,7 +251,7 @@ body {
 .overlay4 {
     position: absolute;
     top: -100px;
-    right: 90px;
+    right: 18px;
     width: 450px;
     height: 267px;
     background: rgba(243, 100, 238, 0.6);
@@ -262,12 +265,14 @@ body {
 
 .project4-img-text {
     position: relative;
-    top: -90px;
-    right: -330px;
+    display: inline-block;
+    top: -50px;
+    right: 115px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
 }
+
 
 
 
