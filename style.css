@@ -74,9 +74,10 @@ body {
 /* Start 'PROJECTS' section */
 .projects-container {
     display: flex;
+    /* justify-content: space-between; */
     background-color: rgb(101, 96, 96);
-    height: 1000px;
-    width: 100%;
+    height: 800px;
+    width: auto;
 }
 
 .projects-h1 {
@@ -89,28 +90,99 @@ body {
     color: rgb(189, 217, 237);
 }
 
-.project1-img {
-    position: relative;
-    left: 700px;
-    top: 30px;
-    justify-content: right;
-    height: 300px;
-    width: 400px;
-    z-index: 900;
-    transition: 0.3s ease;
-}
-
+/* Start 'PROJECT 1' */
 .project1-container {
     position: relative;
+    width: 400px;
+}
+
+.project1-img {
+    position: relative;
+    width: 100%;
+    height: 267px;
+    top: 30px;
+    right: -70px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    width: 100%;
+    height: 267px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.overlay1:hover {
+    opacity: 1;
 }
 
 .project1-img-text {
     position: relative;
-    top: 30px;
-    left: 840px;
+    top: 40px;
+    right: -190px;
     color: rgb(189, 217, 237);
-    font-size: 200%;   
+    font-size: 200%;
+    text-decoration: underline;
 }
+/* End 'PROJECT 1' */
+
+
+/* Start 'PROJECT 2' */
+.project2-container {
+    position: relative;
+    width: 400px;
+}
+
+.project2-img {
+    position: relative;
+    left: 330px;
+    top: 30px;
+    width: 100%;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    width: 100%;
+    height: 267px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.project-text {
+    text-align: center;
+    font-size: 200%;
+    padding: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.project-description {
+    text-align: center;
+    font-size: 125%;
+}
+
+.overlay2:hover {
+    opacity: 1;
+}
+
+.project2-img-text {
+    position: relative;
+    top: 40px;
+    left: 450px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;   
+}
+/* End 'PROJECT 2' */
+
+
+
 
 
 
