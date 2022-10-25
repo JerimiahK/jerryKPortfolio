@@ -73,8 +73,9 @@ body {
 
 /* Start 'PROJECTS' section */
 .projects-container {
-    display: flex;
-    /* justify-content: space-between; */
+    /* display: flex;
+    justify-content: space-around; */
+    position: relative;
     background-color: rgb(101, 96, 96);
     height: 800px;
     width: auto;
@@ -90,70 +91,6 @@ body {
     color: rgb(189, 217, 237);
 }
 
-/* Start 'PROJECT 1' */
-.project1-container {
-    position: relative;
-    width: 400px;
-}
-
-.project1-img {
-    position: relative;
-    width: 100%;
-    height: 267px;
-    top: 30px;
-    right: -70px;
-}
-
-.overlay1 {
-    position: absolute;
-    top: 30px;
-    right: -70px;
-    width: 100%;
-    height: 267px;
-    background: rgba(243, 100, 238, 0.6);
-    color: rgb(189, 217, 237);
-    opacity: 0;
-}
-
-.overlay1:hover {
-    opacity: 1;
-}
-
-.project1-img-text {
-    position: relative;
-    top: 40px;
-    right: -190px;
-    color: rgb(189, 217, 237);
-    font-size: 200%;
-    text-decoration: underline;
-}
-/* End 'PROJECT 1' */
-
-
-/* Start 'PROJECT 2' */
-.project2-container {
-    position: relative;
-    width: 400px;
-}
-
-.project2-img {
-    position: relative;
-    left: 330px;
-    top: 30px;
-    width: 100%;
-}
-
-.overlay2 {
-    position: absolute;
-    top: 30px;
-    left: 330px;
-    width: 100%;
-    height: 267px;
-    background: rgba(243, 100, 238, 0.6);
-    color: rgb(189, 217, 237);
-    opacity: 0;
-}
-
 .project-text {
     text-align: center;
     font-size: 200%;
@@ -167,14 +104,80 @@ body {
     font-size: 125%;
 }
 
+/* Start 'PROJECT 1' */
+.project1-container {
+    position: relative;
+    
+}
+
+.project1-img {
+    position: relative;
+    width: 450px;
+    height: 270px;
+    top: 30px;
+    right: -70px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    width: 100%;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+
+.project1-img-text {
+    position: relative;
+    top: 40px;
+    right: -220px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;
+}
+/* End 'PROJECT 1' */
+
+
+/* Start 'PROJECT 2' */
+.project2-container {
+    position: relative;
+    
+}
+
+.project2-img {
+    position: relative;
+    left: 240px;
+    top: 30px;
+    width: 450px;
+    height: 270px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    width: 100%;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
 .overlay2:hover {
     opacity: 1;
+    display: block;
 }
 
 .project2-img-text {
     position: relative;
     top: 40px;
-    left: 450px;
+    left: 390px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;   
@@ -182,18 +185,80 @@ body {
 /* End 'PROJECT 2' */
 
 
+.project3-container {
+    position: relative;
+    
+}
 
+.project3-img {
+    position: relative;
+    width: 450px;
+    height: 270px;
+    top: 400px;
+    right: 730px;
+}
 
+.overlay3 {
+    position: absolute;
+    top: 400px;
+    left: -730px;
+    width: 100%;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
 
+.overlay3:hover {
+    opacity: 1;
+}
 
+.project3-img-text {
+    position: relative;
+    top: 410px;
+    left: -610px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;
+}
 
+.project4-container {
+    position: relative;
+    
+}
 
+.project4-img {
+    position: relative;
+    width: 1000px;
+    height: 267px;
+    right: 0px;
+    top: 400px;
 
+}
 
+.overlay4 {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    width: 100%;
+    height: 267px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
 
+.overlay4:hover {
+    opacity: 1;
+}
 
-
-
+.project4-img-text {
+    position: relative;
+    top: 410px;
+    right: 0px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;
+}
 
 
 
