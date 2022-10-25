@@ -73,15 +73,18 @@ body {
 
 /* Start 'PROJECTS' section */
 .projects-container {
-    display: flex;
+    /* display: flex;
+    justify-content: space-around; */
+    position: relative;
     background-color: rgb(101, 96, 96);
-    height: 1000px;
-    width: 100%;
+    height: 800px;
+    width: auto;
 }
 
 .projects-h1 {
-    /* position: relative; */
+    position: relative;
     font-size: 300%;
+    height: 800px;
     background-image: linear-gradient(to bottom,
         rgb(65, 162, 253) 0%,
         rgb(232, 47, 232) 100%);
@@ -89,39 +92,182 @@ body {
     color: rgb(189, 217, 237);
 }
 
-.project1-img {
-    position: relative;
-    left: 700px;
-    top: 30px;
-    justify-content: right;
-    height: 300px;
-    width: 400px;
-    z-index: 900;
-    transition: 0.3s ease;
+.project-text {
+    text-align: center;
+    font-size: 200%;
+    padding: 25px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
+.project-description {
+    text-align: center;
+    font-size: 125%;
+}
+
+/* Start 'PROJECT 1' */
 .project1-container {
+    position: absolute;
+    top: 0;
+    width: 45%;
+    left: 234px;
+}
+
+.project1-img {
     position: relative;
+    width: 450px;
+    height: 270px;
+    top: 30px;
+    right: -90px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    width: 450px;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.overlay1:hover {
+    opacity: 1;
 }
 
 .project1-img-text {
     position: relative;
-    top: 30px;
-    left: 840px;
+    top: 40px;
+    right: -240px;
     color: rgb(189, 217, 237);
-    font-size: 200%;   
+    font-size: 200%;
+    text-decoration: underline;
+}
+/* End 'PROJECT 1' */
+
+
+/* Start 'PROJECT 2' */
+.project2-container {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 45%;
 }
 
+.project2-img {
+    position: relative;
+    left: 180px;
+    top: 30px;
+    width: 450px;
+    height: 270px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    width: 450px;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.overlay2:hover {
+    opacity: 1;
+    display: block;
+}
+
+.project2-img-text {
+    position: relative;
+    top: 40px;
+    left: 335px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;   
+}
+/* End 'PROJECT 2' */
 
 
+.project3-container {
+    position: absolute;
+    bottom: 0;
+    left: 235px;
+    width: 45%;
+}
 
+.project3-img {
+    position: relative;
+    width: 450px;
+    height: 270px;
+    top: -100px;
+    left: 90px;
+}
 
+.overlay3 {
+    position: absolute;
+    top: -100px;
+    left: 90px;
+    width: 450px;
+    height: 270px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
 
+.overlay3:hover {
+    opacity: 1;
+}
 
+.project3-img-text {
+    position: relative;
+    top: -90px;
+    left: 230px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;
+}
 
+.project4-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%;
+}
 
+.project4-img {
+    position: relative;
+    width: 450px;
+    height: 267px;
+    right: -180px;
+    top: -100px;
 
+}
 
+.overlay4 {
+    position: absolute;
+    top: -100px;
+    right: 90px;
+    width: 450px;
+    height: 267px;
+    background: rgba(243, 100, 238, 0.6);
+    color: rgb(189, 217, 237);
+    opacity: 0;
+}
+
+.overlay4:hover {
+    opacity: 1;
+}
+
+.project4-img-text {
+    position: relative;
+    top: -90px;
+    right: -330px;
+    color: rgb(189, 217, 237);
+    font-size: 200%;
+    text-decoration: underline;
+}
 
 
 
