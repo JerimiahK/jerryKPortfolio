@@ -82,8 +82,9 @@ body {
 }
 
 .projects-h1 {
-    /* position: relative; */
+    position: relative;
     font-size: 300%;
+    height: 800px;
     background-image: linear-gradient(to bottom,
         rgb(65, 162, 253) 0%,
         rgb(232, 47, 232) 100%);
@@ -106,8 +107,10 @@ body {
 
 /* Start 'PROJECT 1' */
 .project1-container {
-    position: relative;
-    
+    position: absolute;
+    top: 0;
+    width: 45%;
+    left: 234px;
 }
 
 .project1-img {
@@ -115,14 +118,14 @@ body {
     width: 450px;
     height: 270px;
     top: 30px;
-    right: -70px;
+    right: -90px;
 }
 
 .overlay1 {
     position: absolute;
     top: 30px;
-    right: -70px;
-    width: 100%;
+    right: 180px;
+    width: 450px;
     height: 270px;
     background: rgba(243, 100, 238, 0.6);
     color: rgb(189, 217, 237);
@@ -136,7 +139,7 @@ body {
 .project1-img-text {
     position: relative;
     top: 40px;
-    right: -220px;
+    right: -240px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
@@ -146,13 +149,15 @@ body {
 
 /* Start 'PROJECT 2' */
 .project2-container {
-    position: relative;
-    
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 45%;
 }
 
 .project2-img {
     position: relative;
-    left: 240px;
+    left: 180px;
     top: 30px;
     width: 450px;
     height: 270px;
@@ -161,8 +166,8 @@ body {
 .overlay2 {
     position: absolute;
     top: 30px;
-    left: 240px;
-    width: 100%;
+    left: 180px;
+    width: 450px;
     height: 270px;
     background: rgba(243, 100, 238, 0.6);
     color: rgb(189, 217, 237);
@@ -177,7 +182,7 @@ body {
 .project2-img-text {
     position: relative;
     top: 40px;
-    left: 390px;
+    left: 335px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;   
@@ -186,23 +191,25 @@ body {
 
 
 .project3-container {
-    position: relative;
-    
+    position: absolute;
+    bottom: 0;
+    left: 235px;
+    width: 45%;
 }
 
 .project3-img {
     position: relative;
     width: 450px;
     height: 270px;
-    top: 400px;
-    right: 730px;
+    top: -100px;
+    left: 90px;
 }
 
 .overlay3 {
     position: absolute;
-    top: 400px;
-    left: -730px;
-    width: 100%;
+    top: -100px;
+    left: 90px;
+    width: 450px;
     height: 270px;
     background: rgba(243, 100, 238, 0.6);
     color: rgb(189, 217, 237);
@@ -215,32 +222,34 @@ body {
 
 .project3-img-text {
     position: relative;
-    top: 410px;
-    left: -610px;
+    top: -90px;
+    left: 230px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
 }
 
 .project4-container {
-    position: relative;
-    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%;
 }
 
 .project4-img {
     position: relative;
-    width: 1000px;
+    width: 450px;
     height: 267px;
-    right: 0px;
-    top: 400px;
+    right: -180px;
+    top: -100px;
 
 }
 
 .overlay4 {
     position: absolute;
-    top: 400px;
-    right: 0px;
-    width: 100%;
+    top: -100px;
+    right: 90px;
+    width: 450px;
     height: 267px;
     background: rgba(243, 100, 238, 0.6);
     color: rgb(189, 217, 237);
@@ -253,8 +262,8 @@ body {
 
 .project4-img-text {
     position: relative;
-    top: 410px;
-    right: 0px;
+    top: -90px;
+    right: -330px;
     color: rgb(189, 217, 237);
     font-size: 200%;
     text-decoration: underline;
