@@ -304,6 +304,22 @@ body {
     border: 5px solid black;
 }
 
+.about-text-container {
+    position: absolute;
+    height: 460px;
+    width: 1206px;
+    top: 0;
+    right: 0;
+    background: rgb(101, 96, 96);
+}
+
+.about-text {
+    display: inline-block;
+    line-height: 1.9;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(189, 217, 237);
+}
 
 
 
