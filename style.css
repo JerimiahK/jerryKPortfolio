@@ -410,11 +410,46 @@ body {
 .linkedin-button:hover {
     transform: scale(1.1);
 }
+/* End "LinkedIn" section */
 
+/* Start "GitHub Repo" section */
+.repo-h1 {
+    position: absolute;
+    font-size: 40px;
+    line-height: 1.5;
+    color: rgb(189, 217, 237);
+    height: 300px;
+    width: 232px;
+    text-align: center;
+    display: inline-block;
+}
 
+.repo-p {
+    position: relative;
+    left: 1050px;
+    top: 25px;
+}
 
+.repo-button {
+    position: absolute;
+    bottom: 58px;
+    left: 1100px;
+    background-image: linear-gradient(to right,
+                rgb(96, 65, 253) 0%,
+                rgb(232, 47, 90) 100%);
+    border: 5px solid rgb(189, 217, 237);
+    height: 80px;
+    width: 140px;
+    text-align: center;
+    color: rgb(189, 217, 237);
+    font-size: 20px;
+    font-weight: bolder;
+    transition: transform 0.2s;
+}
 
-
+.repo-button:hover {
+    transform: scale(1.1);
+}
 
 
 
