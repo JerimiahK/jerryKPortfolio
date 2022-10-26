@@ -320,7 +320,6 @@ body {
     color: rgb(189, 217, 237);
     padding-left: 13px;
     padding-right: 10px;
-    padding-top: 10px;
 }
 /* END "ABOUT" SECTION */
 
@@ -450,8 +449,8 @@ body {
 .repo-button:hover {
     transform: scale(1.1);
 }
-
-
+/* End "GitHub Repo" section */
+/* END "CONTACT" SECTION */
 
 /* BEGIN FOOTER */
 footer {
@@ -468,3 +467,10 @@ footer {
     justify-content: center;
     padding: 20px;
 }
+/* END FOOTER */
+
+/* START MEDIA QUERIES */ 
+/* @media screen and (max-width: 992px) { */
+    
+
+    
