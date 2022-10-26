@@ -334,8 +334,8 @@ body {
     width: 100%;
 }
 
-.contact-h1 {
-    position: relative;
+.contactme-h1 {
+    position: absolute;
     font-size: 45px;
     color: rgb(189, 217, 237);
     height: 300px;
@@ -344,7 +344,7 @@ body {
     display: inline-block;
 }
 
-.contact-p {
+.contactme-p {
     position: relative;
     left: 155px;
     top: 30px;
@@ -373,12 +373,26 @@ body {
 /* End "Contact" section */
 
 /* Start "LinkedIn" section */
+.linkedin-h1 {
+    position: absolute;
+    font-size: 40px;
+    line-height: 1.5;
+    color: rgb(189, 217, 237);
+    height: 300px;
+    width: 232px;
+    text-align: center;
+    display: inline-block;
+}
 
-
+.linkedin-p {
+    position: relative;
+    left: 600px;
+    top: 25px;
+}
 
 .linkedin-button {
     position: absolute;
-    bottom: 18px;
+    bottom: 58px;
     left: 650px;
     background-image: linear-gradient(to right,
             rgb(96, 65, 253) 0%,
