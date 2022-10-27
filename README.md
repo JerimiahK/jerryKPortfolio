@@ -7,6 +7,7 @@ This website provides a future employers a clean, easy to use webpage that showc
 ## Usage
 
 To explore this web page, please follow this link:
-https://jerimiahk.github.io/porfolio/
+https://jerimiahk.github.io/jerryKPortfolio/
 
-[Horiseon Website Screenshot](./assets/images/01-html-css-git-homework-demo.png)
+
+
